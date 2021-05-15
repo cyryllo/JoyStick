@@ -122,8 +122,8 @@ namespace WSJoyStick {
     export function Listen_Dir(Dir: DIR): boolean {
         let Get_Dir = DIR.NONE;
 
-        let New_X = pins.analogReadPin(AnalogPin.P1);
-        let New_Y = pins.analogReadPin(AnalogPin.P2);
+        let New_X = pins.analogReadPin(AnalogPin.P4);
+        let New_Y = pins.analogReadPin(AnalogPin.P3);
 
         let Right = New_X - Read_X;
         let Left = Read_X - New_X;
