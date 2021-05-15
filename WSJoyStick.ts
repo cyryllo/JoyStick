@@ -30,15 +30,15 @@ enum KEY {
     E = 5,
     F = 6,
 }
-let JoyStick_P = DigitalPin.P8;
-let JoyStick_X = AnalogPin.P1;
-let JoyStick_Y = AnalogPin.P2;
-let KEY_A = DigitalPin.P5;
+let JoyStick_P = DigitalPin.P5;
+let JoyStick_X = AnalogPin.P4;
+let JoyStick_Y = AnalogPin.P3;
+let KEY_A = DigitalPin.P10;
 let KEY_B = DigitalPin.P11;
-let KEY_C = DigitalPin.P15;
-let KEY_D = DigitalPin.P14;
-let KEY_E = DigitalPin.P13;
-let KEY_F = DigitalPin.P12;
+let KEY_C = DigitalPin.P9;
+let KEY_D = DigitalPin.P8;
+let KEY_E = DigitalPin.P7;
+let KEY_F = DigitalPin.P0;
 
 /**
  * Operational remote JoyStick function
