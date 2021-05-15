@@ -1,7 +1,7 @@
 {
-    "name": "WSJoyStick",
+    "name": "JoyStick_Borsuk",
     "version": "0.0.0",
-    "description": "Waveshare electronic",
+    "description": "FabLab Gdansk",
     "license": "MIT",
     "dependencies": {
         "core": "*",
