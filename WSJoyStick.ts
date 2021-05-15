@@ -22,13 +22,13 @@ enum DIR {
 }
 
 enum KEY {
-    BUTTON_J = 0,
-    UP = 1,
-    LEFT = 2,
-    RIGHT = 3,
-    DOWN = 4,
-    SELECT = 5,
-    MODE = 6,
+    P = 0,
+    A = 1,
+    B = 2,
+    C = 3,
+    D = 4,
+    E = 5,
+    F = 6,
 }
 let JoyStick_P = DigitalPin.P5;
 let JoyStick_X = AnalogPin.P4;
